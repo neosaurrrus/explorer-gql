@@ -5,12 +5,12 @@ import graphqlHTTP from "express-graphql"; //alows express to understand graphql
 const app = express()
 
 app.use("/graphql", graphqlHTTP({
-    
-}))
+
+}));
 
 
 
-
+//this is for a test commit
 
 
 app.listen(3000, () => {
