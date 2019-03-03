@@ -10,7 +10,6 @@ app.use("/graphql", graphqlHTTP({
 
 
 
-//this is for a test commit
 
 
 app.listen(3000, () => {
