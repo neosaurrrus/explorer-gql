@@ -5,16 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --experimental-modules app.mjs"
+    "dev": "nodemon app.js"
   },
-  "author": "",
-  "resolutions": {
-    "graphql": "^0.13.0"
-  },
+  "author": "Lukie Kang",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
-    "graphql": "^14.1.1"
+    "graphql": "^14.1.1",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.17"
+  },
+  "resolutions": {
+    "graphql": "^1.0.0"
   }
 }
